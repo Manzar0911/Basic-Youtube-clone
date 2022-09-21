@@ -26,7 +26,7 @@ export default class App extends Component {
     const response = await youtube.get('search', {params: {
       part: 'snippet',
       maxResults: 5,
-      key: 'AIzaSyBTtyOQqIDrA1CMqg1GAzT1WJnE7Q4l_XI',
+      key: '[API_KEY]',
       q: searchTerm,
   }});
 
